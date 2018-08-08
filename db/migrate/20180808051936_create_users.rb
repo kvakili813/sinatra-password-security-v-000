@@ -4,7 +4,7 @@ def up
             t.string :password_digest
         end
     end
- 
+
     def down
         drop_table :users
     end
